@@ -16,7 +16,7 @@
 <div>
 <ul class="nav-links">
 <li><a href="#about">About</a></li>
-<li><a href="#experience">Experience</a></li>
+<li><a href="#experience">Drop</a></li>
 
 <!--
 <li><a href="#projects">Projects</a></li>
@@ -40,9 +40,13 @@
 
 <div class="menu-links">
 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+<li><a href="#experience" onclick="toggleMenu()">Drop</a></li>
+
+<!--
 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+-->
+
 </div>
 
 </div>
@@ -59,25 +63,30 @@
  <h1 class="title">Shakir Adam Elsayed</h1>
   <p class="section__text__p2">Software Engineer</p>
   <div class="btn-container">
-       <button class="btn btn-color2" onclick="window.open('clear.pdf')">
+       <button class="btn btn-color2" id="xIconz" onclick="window.open('clear.pdf')">
+	   <!-- class="btn btn-color2" onclick="window.open('clear.pdf')"--> 
 	   Download CV
        </button>
 	   
-	   <button class="btn btn-color1" onclick="location.href='#contact'">
-	   contact
+	   <button class="btn btn-color1" id="xIconz-puse" onclick="location.href='https://linkedin.com'">
+	   <!--class="btn btn-color1" onclick="location.href='#contact'"-->
+	   Contact
        </button>
 	   
   </div>
   <div id="social-container">
-    <img src="2023-02.jpeg" alt="linkedin profile" class="icon" onclick="location.href='https://linkedin.com'">
-	<img src="2023-02.jpeg" alt="github profile" class="icon" onclick="location.href='https://github.com'">
+    <img src="2023-02.jpeg" class="icon" id="Iconz">
+	<!--onclick="location.href='https://linkedin.com'"-->
+	<img src="2023-02.jpeg" class="icon" id="Iconz-puse">
+	<!--onclick="location.href='https://github.com'"-->
 
   </div>
+ <p class="section__text__p1"> Mix up some Music up!</p>
  </div>
 </section>
 
 <section id="about">
-   <p class="section__text__p1" onclick="location.href='#about'">Get to Know</p>
+   <p class="section__text__p1" >& get to know</p>
    <h1 class="title">About Me</h1>
  <div class="section-container">
  <!--   <div class="section__pic-container">
@@ -87,41 +96,48 @@
     <div class="about-details-container">
        <div class="about-containers">
 	       <div class="details-container">
-		     <img src="2023-02.jpeg" class="icon"/>
+		  <!--   <img src="2023-02.jpeg" class="icon" onclick="location.href='#experience'"/-->
 			 <h3>Experience</h3>
-			 <p>1 year<br>SE </P>
+			 <p class="icon"  onclick="location.href='Yallo-Flash.html'" id="yellow" onMouseOver="ChangeColor();" onMouseOut="ChangeAgain();">Project I</P>
+			 <br>
+			 <p class="icon"  onclick="location.href='tayoya.html'" id="Tayoya" onMouseOver="ChangeColor2();" onMouseOut="ChangeAgain2();">Project II</P>
 		   </div>
 		   <div class="details-container">
-		    <img src="2023-02.jpeg" class="icon"/>
+		   <!-- <img src="2023-02.jpeg" class="icon"/-->
 			 <h3>Education</h3>
-			 <p>B.Sc.(Hons)Computer Science<br>SE </P>
+			 <p>B.Sc.(Hons)CS</P>
 		   </div>
 	    </div>
 		<div class="text-container">
-		   <p>Experience Experience Experience
-		      Experience Experience Experience
-		      Experience <br>Experience Experience
-		      Experience Experience Experience
-		      Experience <br>Experience Experience
-		      Experience Experience <br>Experience
-		      Experience Experience Experience
-		      Experience Experience Experience</p>
+		   <p>seeking an <br>entry-level software engineering<br> position
+		   
+		   </p>
 		</div>
     </div>
  </div>
-  <img src="2023-02.jpeg" class="icon arrow" onclick="location.href='#experience'"/>
+  <img src="2023-02.jpeg" class="icon arrow" onclick="location.href='#profile'"/>
 </section>
 
+
+
+
+<!-- ~~~~~  -->
 <section id="experience">
-  <p class="section__text__p1">Explore</p>
-  <h1 class="title">Expierience</h1>
+  <p class="section__text__p1">2023</p>
+  <h1 class="title">2024</h1>
   <div class="experience-details-container">
      <div class="about-containers">
+	 
          <div class="details-container">
-             <h2 class="experience-sub-title">Software Quality.A Engineer<h2>
-	         <div class="article-container">
+             <h2 class="experience-sub-title">2025</h2>
+	        
+ 
+			<div class="article-container">
+			
+			
+		<!--	
 	            <article>
-		   <img src="2023.jpeg" class="icon"/>
+	     <img src="2023.jpeg" class="icon"/> 
 		    <div>
 			  <h3>Html</h3>
 			  <P>Exp</p>
@@ -129,7 +145,7 @@
 		 </article>
 	  
 	            <article>
-		   <img src="2023.jpeg" class="icon"/>
+		 <img src="2023.jpeg" class="icon"/> 
 		    <div>
 			  <h3>css</h3>
 			  <P>Exp</p>
@@ -137,7 +153,7 @@
 		 </article>
 		 
 		        <article>
-		   <img src="2023.jpeg" class="icon"/>
+		   <img src="2023.jpeg" class="icon"/> 
 		    <div>
 			  <h3>js</h3>
 			  <P>Exp</p>
@@ -145,7 +161,7 @@
 		 </article>
 		 
 		        <article>
-		   <img src="2023.jpeg" class="icon"/>
+		  <img src="2023.jpeg" class="icon"/> 
 		    <div>
 			  <h3>php</h3>
 			  <P>Exp</p>
@@ -153,7 +169,7 @@
 		 </article>
 		 
 		        <article>
-		   <img src="2023.jpeg" class="icon"/>
+		  <img src="2023.jpeg" class="icon"/> 
 		    <div>
 			  <h3>sql</h3>
 			  <P>Exp</p>
@@ -161,77 +177,42 @@
 		 </article>
 		 
 		        <article>
-		   <img src="2023.jpeg" class="icon"/>
+		   <img src="2023.jpeg" class="icon"/> 
 		    <div>
 			  <h3>vue.js</h3>
 			  <P>Exp</p>
 			</div>
-		 </article>
-		 
+		 </article>   -->	
+                               	 
 	  </div>
   </div>
   
-  
+  <!-- 
            <div class="details-container">
              <h2 class="experience-sub-title">Software Quality.A Engineer<h2>
 	         <div class="article-container">
-	            <article>
-		   <img src="2023.jpeg" class="icon"/>
-		    <div>
-			  <h3>AI</h3>
-			  <P>Exp</p>
-			</div>
-		 </article>
-	  
-	            <article>
-		   <img src="2023.jpeg" class="icon"/>
-		    <div>
-			  <h3>DS</h3>
-			  <P>Exp</p>
-			</div>
-		 </article>
-		 
-		        <article>
-		   <img src="2023.jpeg" class="icon"/>
-		    <div>
-			  <h3>DB</h3>
-			  <P>Exp</p>
-			</div>
-		 </article>
-		 
-		        <article>
-		   <img src="2023.jpeg" class="icon"/>
-		    <div>
-			  <h3>Python</h3>
-			  <P>Exp</p>
-			</div>
-		 </article>
-		 
-		        <article>
-		   <img src="2023.jpeg" class="icon"/>
-		    <div>
-			  <h1>git</h1>
-			  <P>Exp</p>
-			</div>
-		 </article>
-		 
-		        <article>
-		   <img src="2023.jpeg" class="icon"/>
-		    <div>
-			  <h3>vue.js</h3>
-			  <P>Exp</p>
-			</div>
-		 </article>
+	       
+		     <p>eeeeeeeeeeeeeeeeeeeeeeee
+			 eeeeeeeeeeeeeeeeeeeeeeeeeee
+			 eeeeeeeeeeeeeeeeeeeeeeeeeee
+			 eeeeeeeeeeeeeeeeeeeeeeeeeee
+			 eeeeeeeeeeeeeeeeeeeeeeeeeee
+			 eeeee</p>
+	
 		 
 	  </div>
   </div>
   
+  -->
   
   </div>
   </div>
   
-   <img src="2023-02.jpeg" class="icon arrow" onclick="location.href='#projects'"/>
+   <img src="2023-03.jpeg" class="icon arrow" onclick="location.href='#profile'"/>
  </section>
+
+
+
 
 <!--
 <section id="Projects">
@@ -242,6 +223,99 @@
 -->
 <script src="app.js"></script>
 
+<!-- audio begin -->
+
+
+  <audio id="mySong">
+    <source src="Cherry.mp3" type="audio/mp3">
+  </audio>
+
+
+  <audio id="mySong2">
+    <source src="Rain.m4a" type="audio/mp3">
+  </audio>
+  
+  
+
+
+ <script type="text/javascript">
+    var mySong=document.getElementById("mySong");
+    var icon=document.getElementById("Iconz");
+    icon.onclick = function(){
+      if(mySong.paused ){
+            mySong.play();
+            icon.src="2023.jpeg";
+      }else{
+         mySong.pause();
+           icon.src="2023-02.jpeg";
+      }
+    }
+	
+	
+	
+	
+	
+	var mySong2=document.getElementById("mySong2");
+	var icon2=document.getElementById("Iconz-puse");
+	icon2.onclick = function(){
+       if(mySong2.paused ){
+            mySong2.play();
+            icon2.src="2023.jpeg";
+      }else{
+         mySong2.pause();
+           icon2.src="2023-02.jpeg";
+      }
+    }
+
+
+
+
+  </script>
+
+<!-- audio finsh -->
+
+
+
+<!-- Yallo-Flash -->
+<script language="javascript" type="text/javascript">
+
+function ChangeColor()
+{
+document.getElementById("yellow").style.color="blue";
+document.getElementById("yellow").firstChild.nodeValue="Rasingan";
+return true;
+}
+
+function ChangeAgain()
+{
+document.getElementById("yellow").style.color="gray";
+document.getElementById("yellow").firstChild.nodeValue="Yallo-Flash";
+return true;
+}
+</script>
+<!-- Yallo-Flash -->
+
+
+
+
+<!-- Tayoya -->
+<script language="javascript" type="text/javascript">
+
+function ChangeColor2()
+{
+document.getElementById("Tayoya").style.color="red";
+document.getElementById("Tayoya").firstChild.nodeValue="Sonc Fushion";
+return true;
+}
+
+function ChangeAgain2()
+{
+document.getElementById("Tayoya").style.color="gray";
+document.getElementById("Tayoya").firstChild.nodeValue="Tayoya";
+return true;
+}
+</script>
+<!-- Tayoya -->
 
 </body>
 

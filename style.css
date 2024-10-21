@@ -296,7 +296,7 @@ a:hover{
 
 .section-container{
 	align-self: center;
-	    display: block;
+	display: block;
 	gap: 4rem;
 	height: 80%;
 	
@@ -316,6 +316,8 @@ a:hover{
 
 #experience{
 	position:relative;
+	background-color:black;
+	color:white;
 }
 
 /*
