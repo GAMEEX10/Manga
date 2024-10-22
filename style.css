@@ -250,7 +250,7 @@ a:hover{
 }
 
 .about-containers{
-	gap:2rem;
+	/*gap:2rem;*/
 	margin-bottom: 2rem;
 	margin-top: 2rem;
 	/*margin-left:5rem;*/
@@ -269,6 +269,8 @@ a:hover{
 .about-details-container{
 	display: flex;
 	justify-content:center;
+	flex-wrap:wrap;
+	position: relative;
 }
 
 .about-pic{
@@ -299,9 +301,10 @@ a:hover{
 	display: block;
 	gap: 4rem;
 	height: 80%;
-	
+	/*
 	margin-left:20rem;
 	margin-right:20rem;
+	*/
 }
 
 .section__pic-container{
@@ -318,6 +321,8 @@ a:hover{
 	position:relative;
 	background-color:black;
 	color:white;
+	flex-wrap:wrap;
+	
 }
 
 /*
@@ -364,7 +369,7 @@ article{
 /*---------*/
 
 .text-container{
-	
+	position: relative;
 	margin-bottom:13rem;
 	
 }
