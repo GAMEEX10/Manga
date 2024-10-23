@@ -15,8 +15,9 @@
 <div class="logo">Profile</div>
 <div>
 <ul class="nav-links">
-<li><a href="#about">About</a></li>
-<li><a href="#experience">Drop</a></li>
+<li><a class="qlass" href="#about">About</a></li>
+<li><a class="qlass" href="#experience">Drop</a></li>
+
 
 <!--
 <li><a href="#projects">Projects</a></li>
@@ -28,7 +29,7 @@
 </nav>
 
 <nav id="hamburger-nav">
-<div class="logo">Shakir Adam Elsayed</div>
+<div class="logo">Profile</div>
 
 <div class="hamburger-menu">
 
@@ -98,24 +99,29 @@
 	       <div class="details-container">
 		  <!--   <img src="2023-02.jpeg" class="icon" onclick="location.href='#experience'"/-->
 			 <h3>Experience</h3>
-			 <p class="icon"  onclick="location.href='Yallo-Flash.html'" id="yellow" onMouseOver="ChangeColor();" onMouseOut="ChangeAgain();">Project I</P>
-			 <br>
-			 <p class="icon"  onclick="location.href='tayoya.html'" id="Tayoya" onMouseOver="ChangeColor2();" onMouseOut="ChangeAgain2();">Project II</P>
+			 <a class="icon7"  onclick="location.href='Yallo-Flash.html'" id="yellow" onMouseOver="ChangeColor();" onMouseOut="ChangeAgain();">Project I</a>
+			 |
+			 <a class="icon7"  onclick="location.href='tayoya.html'" id="Tayoya" onMouseOver="ChangeColor2();" onMouseOut="ChangeAgain2();">Project II</a>
 		   </div>
 		   <div class="details-container">
 		   <!-- <img src="2023-02.jpeg" class="icon"/-->
 			 <h3>Education</h3>
-			 <p>B.Sc.(Hons)CS</P>
+			 <a>BSc.(Hons) in CS</a>
+			
 		   </div>
 	    </div>
 		<div class="text-container">
-		   <p>seeking an <br>entry-level software engineering<br> position
-		   
-		   </p>
+		   <p>seeking an <br>entry-level software engineering</br> position.</p>
+		   </br>
+		   <p>Signiture:</p> 
+		   <img src="sh-Logo/1.png" class="icon4"  id="zz" onclick="xxx();"/>
+		   <p class="Signiture">Plate Armour</p> 
 		</div>
     </div>
  </div>
+ 
   <img src="2023-02.jpeg" class="icon arrow" onclick="location.href='#profile'"/>
+ 
 </section>
 
 
@@ -316,6 +322,71 @@ return true;
 }
 </script>
 <!-- Tayoya -->
+
+
+<!-- sh-Logo -->
+<script language="javascript" type="text/javascript">
+var x=1;
+ var ic=document.getElementById("zz")
+ 
+ic.onclick = function(){
+      if(x==1) 
+	       {ic.src="sh-Logo/2.png";
+	    x=x+1;
+	  }
+	  
+	    else if(x==2) 
+	       {ic.src="sh-Logo/3.png";
+	    x=x+1;
+	  }
+	  
+	      else  if(x==3) 
+	       {ic.src="sh-Logo/4.png";
+	    x=x+1;
+	  }
+	  
+	    else if(x==4) 
+	       {ic.src="sh-Logo/5.png";
+	    x=x+1;
+	  }
+	  
+	  
+	  else  if(x==5) 
+	       {ic.src="sh-Logo/6.png";
+	    x=x+1;
+	  }
+	  
+	    else if(x==6) 
+	       {ic.src="sh-Logo/7.png";
+	    x=x+1;
+	  }
+	  
+	    else    if(x==7) 
+	       {ic.src="sh-Logo/8.png";
+	    x=x+1;
+	  }
+	  
+	    else if(x==8) 
+	       {ic.src="sh-Logo/9.png";
+	    x=x+1;
+	  }
+
+	   else if(x==9) 
+	       {ic.src="sh-Logo/1.png";
+	    x=1;
+	  }
+	  
+	  	  else {
+	}
+}
+	
+</script>
+	  
+<!-- sh-Logo -->
+
+
+
+
 
 </body>
 

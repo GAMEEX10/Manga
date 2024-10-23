@@ -43,7 +43,7 @@ a{
 	text-decoration-color:white;
 }
 
-a:hover{
+.qlass:hover{
 	color:gray;
 	text-decoration: underline;
 	text-underline-offset: 1rem;
@@ -200,6 +200,38 @@ a:hover{
 	height: 2rem;
 }
 
+
+/* new experience ""projects" after fixing the bugs */
+.icon7{
+	cursor:pointer;
+	color:red;
+	/*height: 2rem;*/
+}
+
+
+
+
+
+/* vegeto */
+.icon4{
+	cursor:pointer;
+	/*height: 2rem;*/
+}
+
+
+/* Signiture */
+.Signiture{
+	font-size: 15px;
+	/*height: 2rem;*/
+}
+
+
+
+
+
+
+
+
 /*buttons-style*/
 .btn-container{
 	display:flex;
@@ -284,7 +316,8 @@ a:hover{
 }
 
 .details-container{
-	padding:1.5rem;
+	padding-top:1.5rem;
+	padding-bottom:1.5rem;
 	flex:1;
 	
 	/*
